@@ -51,10 +51,4 @@ var A=27e3;!function(){
   setTimeout(runtime,29*A),
   setTimeout(runtime,30*A),
   setTimeout(runtime,31*A+10),
-  setTimeout(runtime,32*A),
-  setTimeout(runtime,33*A),
-  setTimeout(runtime,34*A),
-  setTimeout(runtime,35*A),
-  setTimeout(runtime,36*A)
-}
-();
+  setTimeout(runtime,32*A),setTimeout(runtime,33*A),setTimeout(runtime,34*A),setTimeout(runtime,35*A),setTimeout(runtime,36*A)}();
