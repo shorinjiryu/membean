@@ -7,8 +7,13 @@ function start() {
 function Initiate() {
   document.getElementById("Proceed")&&document.getElementById("Proceed").click();
 }
+<<<<<<< HEAD
+//we'll eventually unfuck the timeout method, but until then, we're screwed
+function runtime(){
+=======
 
 function runtime() {
+>>>>>>> 2935b0b502e37bc4adee45dc300dcd9bb7fce064
   document.getElementById("user-growl")&&("Restudy"==document.getElementById("user-growl").innerHTML||"Study"==document.getElementById("user-growl").innerHTML)?(console.log("Answering Review"),
   document.getElementsByClassName("choice answer")[0].click(),
   document.getElementById("next-btn").click()):(console.log("Answering Normal"),
